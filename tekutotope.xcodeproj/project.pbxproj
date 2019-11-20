@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		453100F623534F4800BF13E0 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453100F523534F4800BF13E0 /* UIImage+Gif.swift */; };
+		455749002345B43D00026247 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455748FF2345B43D00026247 /* NextViewController.swift */; };
+		455BF0712344777000BB26A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456E999B23332F8D00525FC6 /* Assets.xcassets */; };
 		456E999523332F8B00525FC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456E999423332F8B00525FC6 /* AppDelegate.swift */; };
 		456E999723332F8B00525FC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456E999623332F8B00525FC6 /* ViewController.swift */; };
 		456E999A23332F8B00525FC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456E999823332F8B00525FC6 /* Main.storyboard */; };
-		456E999C23332F8D00525FC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456E999B23332F8D00525FC6 /* Assets.xcassets */; };
 		456E999F23332F8D00525FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456E999D23332F8D00525FC6 /* LaunchScreen.storyboard */; };
+		458E04E4237D1C53002268BE /* containViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458E04E3237D1C53002268BE /* containViewController.swift */; };
+		45A2AA76237ABE8900621DFA /* forestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2AA75237ABE8900621DFA /* forestViewController.swift */; };
+		45A2AA78237ABEB800621DFA /* hondanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2AA77237ABEB800621DFA /* hondanaViewController.swift */; };
+		45A2AA7A237AD35800621DFA /* seaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2AA79237AD35800621DFA /* seaViewController.swift */; };
+		45A2AA7C237AD58A00621DFA /* streatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2AA7B237AD58A00621DFA /* streatViewController.swift */; };
+		45A2AA7E237AD5AD00621DFA /* parkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2AA7D237AD5AD00621DFA /* parkViewController.swift */; };
+		45A2AA80237AD5BE00621DFA /* houseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2AA7F237AD5BE00621DFA /* houseViewController.swift */; };
+		45A2AA82237B7C3700621DFA /* placeselectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2AA81237B7C3700621DFA /* placeselectViewController.swift */; };
+		45A2AA84237BAFA900621DFA /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2AA83237BAFA900621DFA /* resultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		453100F523534F4800BF13E0 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		455748FF2345B43D00026247 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		456E999123332F8B00525FC6 /* tekutotope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tekutotope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		456E999423332F8B00525FC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		456E999623332F8B00525FC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,15 @@
 		456E999B23332F8D00525FC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		456E999E23332F8D00525FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		456E99A023332F8D00525FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		458E04E3237D1C53002268BE /* containViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = containViewController.swift; sourceTree = "<group>"; };
+		45A2AA75237ABE8900621DFA /* forestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forestViewController.swift; sourceTree = "<group>"; };
+		45A2AA77237ABEB800621DFA /* hondanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hondanaViewController.swift; sourceTree = "<group>"; };
+		45A2AA79237AD35800621DFA /* seaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seaViewController.swift; sourceTree = "<group>"; };
+		45A2AA7B237AD58A00621DFA /* streatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = streatViewController.swift; sourceTree = "<group>"; };
+		45A2AA7D237AD5AD00621DFA /* parkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parkViewController.swift; sourceTree = "<group>"; };
+		45A2AA7F237AD5BE00621DFA /* houseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = houseViewController.swift; sourceTree = "<group>"; };
+		45A2AA81237B7C3700621DFA /* placeselectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeselectViewController.swift; sourceTree = "<group>"; };
+		45A2AA83237BAFA900621DFA /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +76,20 @@
 		456E999323332F8B00525FC6 /* tekutotope */ = {
 			isa = PBXGroup;
 			children = (
+				45A2AA81237B7C3700621DFA /* placeselectViewController.swift */,
+				453100F523534F4800BF13E0 /* UIImage+Gif.swift */,
 				456E999423332F8B00525FC6 /* AppDelegate.swift */,
+				455748FF2345B43D00026247 /* NextViewController.swift */,
 				456E999623332F8B00525FC6 /* ViewController.swift */,
 				456E999823332F8B00525FC6 /* Main.storyboard */,
+				458E04E3237D1C53002268BE /* containViewController.swift */,
+				45A2AA83237BAFA900621DFA /* resultViewController.swift */,
+				45A2AA7B237AD58A00621DFA /* streatViewController.swift */,
+				45A2AA7D237AD5AD00621DFA /* parkViewController.swift */,
+				45A2AA7F237AD5BE00621DFA /* houseViewController.swift */,
+				45A2AA79237AD35800621DFA /* seaViewController.swift */,
+				45A2AA77237ABEB800621DFA /* hondanaViewController.swift */,
+				45A2AA75237ABE8900621DFA /* forestViewController.swift */,
 				456E999B23332F8D00525FC6 /* Assets.xcassets */,
 				456E999D23332F8D00525FC6 /* LaunchScreen.storyboard */,
 				456E99A023332F8D00525FC6 /* Info.plist */,
@@ -123,7 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				456E999F23332F8D00525FC6 /* LaunchScreen.storyboard in Resources */,
-				456E999C23332F8D00525FC6 /* Assets.xcassets in Resources */,
+				455BF0712344777000BB26A2 /* Assets.xcassets in Resources */,
 				456E999A23332F8B00525FC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +168,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A2AA7C237AD58A00621DFA /* streatViewController.swift in Sources */,
 				456E999723332F8B00525FC6 /* ViewController.swift in Sources */,
+				45A2AA7E237AD5AD00621DFA /* parkViewController.swift in Sources */,
+				45A2AA84237BAFA900621DFA /* resultViewController.swift in Sources */,
+				45A2AA7A237AD35800621DFA /* seaViewController.swift in Sources */,
+				458E04E4237D1C53002268BE /* containViewController.swift in Sources */,
+				45A2AA78237ABEB800621DFA /* hondanaViewController.swift in Sources */,
+				455749002345B43D00026247 /* NextViewController.swift in Sources */,
+				453100F623534F4800BF13E0 /* UIImage+Gif.swift in Sources */,
 				456E999523332F8B00525FC6 /* AppDelegate.swift in Sources */,
+				45A2AA76237ABE8900621DFA /* forestViewController.swift in Sources */,
+				45A2AA80237AD5BE00621DFA /* houseViewController.swift in Sources */,
+				45A2AA82237B7C3700621DFA /* placeselectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
